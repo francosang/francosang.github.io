@@ -7,6 +7,48 @@
 [![CSS](https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010)](https://developer.mozilla.org/es/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
+## Publicar en GitHub Pages
+
+### Crear un environment 
+
+Estas son las instrucciones para crear un environment llamado `github-pages`:
+
+1. Navega a las Settings de tu repositorio.
+2. Abre `Environments` en la sección `Code and automation`.
+3. Presiona el botón `New environment`.
+4. En el nombre ingresa `github-pages`.
+5. En la sección `Deployment branches and tags`, click en el menú que dice `No restricion`.
+6. Del menú desplegable, seleccionar `Selected branches and tags`.
+7. Un nuevo panel debió haber aparecido, click en `Add deployment branch or tag rule`.
+8. Escribe el nombre de tu rama principal, generalmente `main`.
+9. Haz click en `Add rule`.
+
+Debe quedar algo así:
+
+<a href="./environment_setup.png"><img src="./environment_setup.png" style="height: 50%; width:50%;"/></a>
+
+### Publicar
+
+Para publicar nuevas versiones de tu portafolio, debes hacerlo con la acción `🚀 Publicar GitHub Pages`.
+
+1. Navega a `Actions`.
+2. Selecciona `🚀 Publicar GitHub Pages`
+3. Click en `Run workflow`
+4. Ten en cuenta que solo funciona desde la rama `main`.
+5. Click en `Run workflow`.
+
+## Actualizar datos personales
+
+### Datos de la página
+
+Abrir el archivo `./assets/data/data.json`.
+
+Inspeccionarlo y colocar los datos según creas correcto.
+
+Alternativamente, puedes usar como base el archivo de plantilla `data_template.json`.
+
+IMPORTANTE: el archivo que quieras usar se debe llamar `data.json`. Si decides usar la plantilla base, recuerda renombrarla.
+
 ## Plantilla de portafolio web minimalista configurable a nivel gráfico y de contenido.
 
 Desarrollado utilizando [Python](https://python.org) y [Reflex](https://reflex.dev), disponible para desplegar de forma estática (HTML, CSS, JS).
