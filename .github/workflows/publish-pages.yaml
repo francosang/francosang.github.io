@@ -31,7 +31,7 @@ jobs:
         run: |
           pip install -r requirements.txt
           reflex init
-          reflex export --frontend-only --no-zip
+          FRONTEND_PATH=/${{ github.event.repository.name }} reflex export --frontend-only --no-zip
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

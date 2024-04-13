@@ -1,5 +1,6 @@
 import reflex as rx
 from portafolio.data import Extra
+from portafolio.utils import image_url
 
 from portafolio.styles.styles import IMAGE_HEIGHT, Size
 
@@ -9,7 +10,7 @@ def card_detail(extra: Extra) -> rx.Component:
         rx.link(
             rx.inset(
                 rx.image(
-                    src=extra.image,
+                    src=image_url(extra.image),
                     height=IMAGE_HEIGHT,
                     width="100%",
                     object_fit="cover"
