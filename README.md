@@ -57,7 +57,15 @@ IMPORTANTE: el archivo que quieras usar se debe llamar `data.json`. Si decides u
 
 ### Curriculum
 
+También debes actualizar tu curriculum.
 
+Debe ser un fichero PDF.
+
+Colócalo en `assets/data/cv.pdf`.
+
+## Agradecimientos
+
+Gracias a [@mouredev](https://github.com/mouredev) por su https://github.com/mouredev/portafolio-template.
 
 ## Plantilla de portafolio web minimalista configurable a nivel gráfico y de contenido.
 
