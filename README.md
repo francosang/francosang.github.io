@@ -7,9 +7,13 @@
 [![CSS](https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010)](https://developer.mozilla.org/es/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
-## Publicar en GitHub Pages
+## Crear un fork 
 
-### Crear un environment 
+Para empezar, haz un fork de este repositorio.
+
+## Crear un environment 
+
+Es necesario crear un environment para el correcto funcionamiento GitHub Pages.
 
 Estas son las instrucciones para crear un environment llamado `github-pages`:
 
@@ -23,13 +27,15 @@ Estas son las instrucciones para crear un environment llamado `github-pages`:
 8. Escribe el nombre de tu rama principal, generalmente `main`.
 9. Haz click en `Add rule`.
 
-Debe quedar algo así:
+El resultado debe verse así:
 
 <a href="./environment_setup.png"><img src="./environment_setup.png" style="height: 50%; width:50%;"/></a>
 
-### Publicar
+## Publicaciones
 
-Para publicar nuevas versiones de tu portafolio, debes hacerlo con la acción `🚀 Publicar GitHub Pages`.
+La publicación de tu portfolio será automática con cada push a la rama `main`.
+
+Adicionalmente, puedes publicar nuevas versiones la acción `🚀 Publicar GitHub Pages`.
 
 1. Navega a `Actions`.
 2. Selecciona `🚀 Publicar GitHub Pages`
@@ -43,11 +49,15 @@ Para publicar nuevas versiones de tu portafolio, debes hacerlo con la acción `�
 
 Abrir el archivo `./assets/data/data.json`.
 
-Inspeccionarlo y colocar los datos según creas correcto.
+Inspeccionarlo y cambiar los datos según creas correcto.
 
 Alternativamente, puedes usar como base el archivo de plantilla `data_template.json`.
 
 IMPORTANTE: el archivo que quieras usar se debe llamar `data.json`. Si decides usar la plantilla base, recuerda renombrarla.
+
+### Curriculum
+
+
 
 ## Plantilla de portafolio web minimalista configurable a nivel gráfico y de contenido.
 
