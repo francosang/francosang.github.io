@@ -1,18 +1,18 @@
 {
-    "title": "Franco Sangiacomo | Portafolio",
-    "description": "Full Stack Developer, with pleanty of experience in Backend and Mobile.",
-    "image": "/avatar.jpg",
-    "avatar": "/avatar.jpg",
-    "name": "Franco Sangiacomo",
-    "skill": "Senior Software Engineer - Backend, Mobile & Web Developer",
-    "location": "Barcelon, Spain, Europe and the World",
+    "title": "Título",
+    "description": "Descripción",
+    "image": "/favicon.ico",
+    "avatar": "/favicon.ico",
+    "name": "Nombre",
+    "skill": "Habilidad principal",
+    "location": "Localización",
     "media": {
-        "email": "neo@metacortex.com",
+        "email": "email@email.com",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+        "github": "https://github.com",
+        "likedin": "https://linkedin.com"
     },
-    "about": "I am a Senior Software Engineer with more than 10 years of experience in the software industry. I have worked in different companies and projects, from small startups to large corporations. I have experience in different technologies and programming languages, from low-level languages like C to high-level languages like Scala and Kotlin. I have worked in different areas of software development, from embedded systems to web development. I am passionate about technology and I am always looking for new challenges and opportunities to learn and grow.",
+    "about": "Descripción",
     "technologies": [
         {
             "icon": "devicon-devicon-plain",

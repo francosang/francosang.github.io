@@ -31,6 +31,18 @@ El resultado debe verse así:
 
 <a href="./environment_setup.png"><img src="./environment_setup.png" style="height: 50%; width:50%;"/></a>
 
+## Activar GitHub Pages
+
+Es necesario que tu repositorio tenga activado GitHub Pages.
+
+1. Navega a las Settings de tu repositorio.
+2. Abre `Pages` en la sección `Code and automation`.
+3. En `Sources` selecciona `GitHub Actions`.
+
+Imagen ilustrativa:
+
+<a href="./pages_setup.png"><img src="./pages_setup.png" style="height: 50%; width:50%;"/></a>
+
 ## Publicaciones
 
 La publicación de tu portfolio será automática con cada push a la rama `main`.
