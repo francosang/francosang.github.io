@@ -1,100 +1,92 @@
 {
-    "title": "Título",
-    "description": "Descripción",
+    "title": "Franco Sangiacomo",
+    "description": "Senior Engineer",
     "image": "/favicon.ico",
     "avatar": "/favicon.ico",
-    "name": "Nombre",
-    "skill": "Habilidad principal",
-    "location": "Localización",
+    "name": "Franco Sangiacomo",
+    "skill": "Senior Engineer",
+    "location": "Barcelona, Spain",
     "media": {
-        "email": "email@email.com",
+        "email": "franconecat@gmail.com",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com",
-        "likedin": "https://linkedin.com"
+        "github": "https://github.com/francosang",
+        "likedin": "https://www.linkedin.com/in/franco-sangiacomo"
     },
-    "about": "Descripción",
+    "about": "Multi-disciplinary engineer with a strong background in software development and a passion for technology. I have strong experience in the development of mobile applications and Backend systems. I am a proactive person, with a strong sense of responsibility and a great capacity for teamwork. I am always looking for new challenges and opportunities to learn.",
     "technologies": [
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Tecnología"
+            "icon": "devicon-scala-plain",
+            "name": "Scala"
+        },
+        {
+            "icon": "devicon-kafka-plain",
+            "name": "Kafka"
+        },
+        {
+            "icon": "devicon-android-plain",
+            "name": "Android"
+        },
+        {
+            "icon": "devicon-jetpackcompose-plain",
+            "name": "Jetpack Compose"
         },
         {
             "icon": "devicon-devicon-plain",
-            "name": "Tecnología"
+            "name": "Mobile Apps"
         },
         {
             "icon": "devicon-devicon-plain",
-            "name": "Tecnología"
+            "name": "Functional Programming"
+        },
+        {
+            "icon": "devicon-azuresqldatabase-plain",
+            "name": "Relational Databases"
         }
     ],
     "experience": [
         {
             "icon": "box-select",
-            "title": "Título",
-            "subtitle": "Subtítulo",
-            "description": "Descripción",
-            "date": "Años"
+            "title": "Senior Backend Engineer",
+            "subtitle": "Stuart",
+            "description": "Scala, Kafka, Functional Programing",
+            "date": "1.5 year"
         },
         {
             "icon": "box-select",
-            "title": "Título",
-            "subtitle": "Subtítulo",
-            "description": "Descripción",
-            "date": "Años"
+            "title": "Senior Mobile Engineer",
+            "subtitle": "Stuart",
+            "description": "Flutter, Android, iOS, Architecture",
+            "date": "1.5 year"
+        },
+        {
+            "icon": "box-select",
+            "title": "Senior Android Engineer",
+            "subtitle": "Parser Digitial",
+            "description": "Android, Jetpack Compose, Room Database, Architecture",
+            "date": "1 year"
+        },
+        {
+            "icon": "box-select",
+            "title": "Senior Backend Engineer",
+            "subtitle": "Parser Digital",
+            "description": "Java, Spring Boot, PostgreSQL, REST APIs",
+            "date": "0.5 years"
         }
     ],
     "projects": [
         {
             "icon": "box-select",
-            "title": "Título",
-            "subtitle": "Subtítulo",
-            "description": "Descripción",
+            "title": "TODO",
+            "subtitle": "TODO",
+            "description": "TODO",
             "technologies": [
                 {
                     "icon": "devicon-devicon-plain",
-                    "name": "Tecnología"
+                    "name": "TODO"
                 },
                 {
                     "icon": "devicon-devicon-plain",
-                    "name": "Tecnología"
-                }
-            ],
-            "image": "/favicon.ico",
-            "url": "https://google.com",
-            "github": "https://github.com"
-        },
-        {
-            "icon": "box-select",
-            "title": "Título",
-            "subtitle": "Subtítulo",
-            "description": "Descripción",
-            "technologies": [
-                {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Tecnología"
-                },
-                {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Tecnología"
-                }
-            ],
-            "image": "/favicon.ico",
-            "url": "https://google.com",
-            "github": "https://github.com"
-        },
-        {
-            "icon": "box-select",
-            "title": "Título",
-            "subtitle": "Subtítulo",
-            "description": "Descripción",
-            "technologies": [
-                {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Tecnología"
-                },
-                {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Tecnología"
+                    "name": "TODO"
                 }
             ],
             "image": "/favicon.ico",
@@ -105,30 +97,18 @@
     "training": [
         {
             "icon": "box-select",
-            "title": "Título",
-            "subtitle": "Subtítulo",
-            "description": "Descripción",
-            "date": "Años",
+            "title": "TODO",
+            "subtitle": "TODO",
+            "description": "TODO",
+            "date": "TODO",
             "certificate": "https://google.com"
         }
     ],
     "extras": [
         {
             "image": "/favicon.ico",
-            "title": "Título",
-            "description": "Descripción",
-            "url": ""
-        },
-        {
-            "image": "/favicon.ico",
-            "title": "Título",
-            "description": "Descripción",
-            "url": ""
-        },
-        {
-            "image": "/favicon.ico",
-            "title": "Título",
-            "description": "Descripción",
+            "title": "TODO",
+            "description": "TODO",
             "url": ""
         }
     ]
